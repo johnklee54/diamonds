@@ -1,7 +1,11 @@
 # Diamonds
 This is a regression model built to predict a diamond's price based on different characteristics of a diamond.  It is designed to walk through the process of predicting an outcome using a training and test set of data. It is in Jupyter Notebook format.
+You can also view the notebook in a browser by clicking on the binder icon below. The link will serve a docker image of the project, so no Jupyter needed.
 
-It starts with simple linear regression model. The model will try to use a single indepdent variable (in this case the carat size) to predict a dependent variable (price of the diamond) as this seems to make sense, the larger the carat size the more expensive it should be. 
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/johnklee54/diamonds/HEAD?labpath=John+Lee+Final+project+notebook-diamonds.ipynb)
+
+The nteobook starts with simple linear regression model. The model will try to use a single indepdent variable (in this case the carat size) to predict a dependent variable (price of the diamond) as this seems to make sense, the larger the carat size the more expensive it should be. 
 
 Using the data provided by Kaggle, the data is a single comma-seprated file (csv) with the following characteristics:
 
